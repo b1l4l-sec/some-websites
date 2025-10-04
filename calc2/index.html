@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button class="btn btn-function" onclick="clearDisplay()">C</button>
+            <button class="btn btn-function" onclick="deleteLast()">&#9003;</button>
+            <button class="btn btn-operator" onclick="appendToDisplay('/')">/</button>
+            <button class="btn btn-operator" onclick="appendToDisplay('*')">*</button>
+            <button class="btn btn-number" onclick="appendToDisplay('7')">7</button>
+            <button class="btn btn-number" onclick="appendToDisplay('8')">8</button>
+            <button class="btn btn-number" onclick="appendToDisplay('9')">9</button>
+            <button class="btn btn-operator" onclick="appendToDisplay('-')">-</button>
+            <button class="btn btn-number" onclick="appendToDisplay('4')">4</button>
+            <button class="btn btn-number" onclick="appendToDisplay('5')">5</button>
+            <button class="btn btn-number" onclick="appendToDisplay('6')">6</button>
+            <button class="btn btn-operator" onclick="appendToDisplay('+')">+</button>
+            <button class="btn btn-number" onclick="appendToDisplay('1')">1</button>
+            <button class="btn btn-number" onclick="appendToDisplay('2')">2</button>
+            <button class="btn btn-number" onclick="appendToDisplay('3')">3</button>
+            <button class="btn btn-number" onclick="appendToDisplay('.')">.</button>
+            <button class="btn btn-zero" onclick="appendToDisplay('0')">0</button>
+            <button class="btn btn-equal" onclick="calculateResult()">=</button>
+        </div>
+        <footer class="footer">
+            &copy; <a class="copyright" href="https://www.instagram.com/lb_programming?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">2024 lb_programming</a>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

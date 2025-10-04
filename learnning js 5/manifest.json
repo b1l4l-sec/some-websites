@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "2.0",
+    "name": "Urls Saver LB",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "image.jpg"
+    },
+    "permissions": [
+      "tabs"
+    ]
+}
+  

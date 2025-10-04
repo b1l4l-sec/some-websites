@@ -1,0 +1,24 @@
+body{
+    background-color: #B1AFFF;
+  }
+
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #698474;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+  }
+
+  img{
+    height: 200px;
+  }
+
+  h1{
+    color: #2E236C;
+  }
+
+  h3,h2{
+    color: #2E236C; /*so this just a litle of some css lines we ll see more about it as u saw that just a few lines made our website more interesting*/
+  }

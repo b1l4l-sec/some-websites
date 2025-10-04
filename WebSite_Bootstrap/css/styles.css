@@ -1,0 +1,156 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+#title{
+    background: rgb(57, 189, 182);
+    padding: 3% 10% 5% 10%;
+    color: white;
+}
+
+@media (max-width: 900px){ 
+    #title{
+        padding-bottom: 70%;
+        text-align: center;
+    }
+}
+
+.row{
+    padding-top: 4.5rem;
+}
+
+.container-fluid{
+    padding-bottom: 7%;
+}
+
+h1{
+    font-family: "Roboto Mono", monospace;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* h2{
+     font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2; 
+} */
+
+/* h3{
+    font-family: "Pacifico", cursive ; 
+} */
+
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: rgb(71, 222, 214) ;
+    margin-bottom: 1rem ;
+}
+
+.icon:hover{
+    color: rgb(57, 189, 182);
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+}
+
+.nav-item{
+    padding: 0 14px;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+.titleimg{
+    width: 75%;
+    transform: rotate(20deg);
+    margin-left: 2%;
+    position: absolute;
+    right: 15%;
+}
+
+#features{
+    padding: 2% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#testimonials{
+    margin-top: 10px;
+    text-align: center;
+    background-color:rgb(57, 189, 182) ;
+    color: white;
+}
+
+.testimonial-image{
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-image-1{
+    width: 17.2%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 3.5% 15%;
+}
+
+#press{
+    background-color: rgb(57, 189, 182);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.img{
+    padding: 3%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing_cl{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color:rgb(57, 189, 182) ;
+    text-align: center;
+    padding: 10%;
+    padding-bottom: 7%;
+    color: white;
+}
+
+#footer{
+    padding: 10%;
+    text-align: center;
+}
+
+.icons{
+    margin: 20px 10px;
+    size: 10px;
+}

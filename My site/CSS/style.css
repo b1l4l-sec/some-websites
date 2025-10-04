@@ -1,0 +1,131 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h1{
+    color: rgb(124, 165, 241);
+    font-size: 562%; 
+    margin: 0 auto 0 auto ;
+    font-family: "Sacramento", cursive;
+}
+
+h2{
+    color: rgb(111, 158, 245);
+    font-family: "Montserrat", sans-serif; /*u can find those pics on icon web site */
+    /*look i m gonna change the button*/
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: rgb(107, 136, 162);
+    font-family: "Montserrat", sans-serif;
+}
+
+.firstCloud{
+    position: absolute;
+    right: 170px;
+    top: 50px;
+}
+
+.secondCloud{
+    position: absolute;
+    left: 130px;
+    bottom: 230px;
+}
+
+.skill-row{
+    margin:100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+p{
+    line-height: 1.5;
+}
+
+hr{
+    border: dotted 6px;
+    color: #abbcbc;
+    width: 7%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+.PhotoshopPic{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.computerPic{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.programmer,.coding{
+    text-decoration: underline;
+}
+
+.my_pic{
+    width: 200px;
+}
+
+.start{
+    width: 50%;
+    margin: auto;
+}
+
+.contact_messg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.top{
+    background-color: #c4e4f6;
+    padding-top: 100px;
+}
+
+.middle{
+    margin: 100px 0;
+}
+
+.bottom{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.textEnd{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: "Montserrat", sans-serif;
+    color: #ed0909;      /*this two btn parameters just to generate a button on my website using a button generator on google */
+    font-size: 17px;
+    background: #66bfbf;/*this is the version 3 of crating my CV website it s more developped*/
+    padding: 10px 20px 10px 20px;
+    border: solid #001726 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
